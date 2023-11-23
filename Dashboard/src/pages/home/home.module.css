@@ -24,14 +24,19 @@
   padding: 2rem 5rem 2rem 5rem;
 }
 
-.inner_left,
-.inner_right {
+.inner_left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.inner_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .inner_left > h1 {
   align-self: center;
 }
@@ -68,6 +73,7 @@
 .hero_content_left {
   display: flex;
   width: 100%;
+  margin-left: 5rem;
 }
 
 .hero_content_left > input {
