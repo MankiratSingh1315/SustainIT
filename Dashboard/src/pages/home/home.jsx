@@ -22,17 +22,21 @@ export default function Home() {
             <h1>Asset Name</h1>
           </div>
           <div className={styles.inner_right}>
-            <div className={`${styles.inner_right_one} ${styles.inner_right_content}`}>
+            <div
+              className={`${styles.inner_right_one} ${styles.inner_right_content}`}
+            >
               <h4 className={styles.inner_right_text_heading}>
                 Product Purchased
               </h4>
               <h5 className={styles.inner_right_text_data}>06 October 2022</h5>
             </div>
-            <div className={`${styles.inner_right_two} ${styles.inner_right_content}`}>
+            <div
+              className={`${styles.inner_right_two} ${styles.inner_right_content}`}
+            >
               <h4 className={styles.inner_right_text_heading}>
-                Product Purchased
+                Last Maintenance
               </h4>
-              <h5 className={styles.inner_right_text_data}>06 October 2022</h5>
+              <h5 className={styles.inner_right_text_data}>05 August 2023</h5>
             </div>
           </div>
         </div>
