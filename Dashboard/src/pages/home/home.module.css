@@ -1,12 +1,13 @@
 .container {
-  color: #e33e6c;
-  height: 100vh;
+  color: rgb(49,144,148);
+  /* height: 100vh; */
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .card {
@@ -20,7 +21,7 @@
 
   border-radius: 50px;
   border: 2px solid rgba(255, 255, 255, 0.18);
-  background-color: #1e1e1e;
+  background-color: rgba(17,28,68,1);
   padding: 2rem 5rem 2rem 5rem;
 }
 
@@ -39,6 +40,7 @@
 }
 .inner_left > h1 {
   align-self: center;
+  color: #ea4c89;
 }
 .inner_right_content {
   display: flex;
@@ -82,7 +84,7 @@
   height: 2rem;
   border-radius: 50px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  background-color: #1e1e1e;
+  background-color: #a3a3a3;
   color: #fff;
   margin-left: 2rem;
   padding: 0.5rem;
@@ -139,4 +141,34 @@
 .button:hover,
 .button:focus {
   background-color: #f082ac;
+}
+
+.assetForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.assetForm > form > input {
+  width: 75%;
+  height: 2rem;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: #a3a3a3;
+  color: #fff;
+  margin-left: 2rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.assetForm > form > input::placeholder {
+  color: #fff;
+
+  font: 1.15rem sans-serif;
+  margin-left: 2 rem;
 }
