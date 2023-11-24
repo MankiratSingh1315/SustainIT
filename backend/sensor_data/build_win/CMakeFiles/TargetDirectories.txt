@@ -1,0 +1,16 @@
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/Experimental.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/Nightly.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/Continuous.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/NightlyMemoryCheck.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/PACKAGE.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/RUN_TESTS.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/ALL_BUILD.dir
+E:/develop/hwifo/hwinfo/build_win/CMakeFiles/ZERO_CHECK.dir
+E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/HWinfo.dir
+E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/PACKAGE.dir
+E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/RUN_TESTS.dir
+E:/develop/hwifo/hwinfo/build_win/examples/CMakeFiles/Example.exe.dir
+E:/develop/hwifo/hwinfo/build_win/examples/CMakeFiles/PACKAGE.dir
+E:/develop/hwifo/hwinfo/build_win/examples/CMakeFiles/RUN_TESTS.dir
+E:/develop/hwifo/hwinfo/build_win/test/CMakeFiles/PACKAGE.dir
+E:/develop/hwifo/hwinfo/build_win/test/CMakeFiles/RUN_TESTS.dir

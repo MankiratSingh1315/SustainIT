@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/miss-opencl/external/OpenCL/lib/src/Extensions/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/OpenCLExt.lib"
+			],
+			"targetId" : "OpenCLExt::@3bfab2f84cd2497921fa",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLExtensionLoader",
+			"exportName" : "OpenCLExtensionLoaderTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenCLExt::@3bfab2f84cd2497921fa",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/src/Extensions/CMakeFiles/Export/da44460c17210c89a3633824f7178c34/OpenCLExtensionLoaderTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLExtensionLoader",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/lib/src/Extensions/OpenCLExtensionLoader/OpenCLExtensionLoaderConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLExtensionLoader",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/lib/src/Extensions/OpenCLExtensionLoader/OpenCLExtensionLoaderConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/lib/src/Extensions",
+		"source" : "external/miss-opencl/external/OpenCL/lib/src/Extensions"
+	}
+}

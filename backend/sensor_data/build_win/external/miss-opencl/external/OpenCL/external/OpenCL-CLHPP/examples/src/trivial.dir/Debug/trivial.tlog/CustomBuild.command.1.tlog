@@ -1,0 +1,10 @@
+^E:\DEVELOP\HWIFO\HWINFO\EXTERNAL\MISS-OPENCL\EXTERNAL\OPENCL\EXTERNAL\OPENCL-CLHPP\EXAMPLES\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/develop/hwifo/hwinfo -BE:/develop/hwifo/hwinfo/build_win --check-stamp-file E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

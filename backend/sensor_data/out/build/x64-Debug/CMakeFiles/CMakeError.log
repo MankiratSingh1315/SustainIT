@@ -1,0 +1,103 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: E:/develop/hwifo/hwinfo/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ffa96 && [1/2] Building C object CMakeFiles\cmTC_ffa96.dir\src.c.obj
+FAILED: CMakeFiles/cmTC_ffa96.dir/src.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_ffa96.dir\src.c.obj /FdCMakeFiles\cmTC_ffa96.dir\ /FS -c E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.c
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: E:/develop/hwifo/hwinfo/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b8e4c && [1/2] Building C object CMakeFiles\cmTC_b8e4c.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_b8e4c.exe
+FAILED: cmTC_b8e4c.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_b8e4c.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b8e4c.dir\CheckFunctionExists.c.obj  /out:cmTC_b8e4c.exe /implib:cmTC_b8e4c.lib /pdb:cmTC_b8e4c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_b8e4c.dir\CheckFunctionExists.c.obj /out:cmTC_b8e4c.exe /implib:cmTC_b8e4c.lib /pdb:cmTC_b8e4c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_b8e4c.dir/intermediate.manifest CMakeFiles\cmTC_b8e4c.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: E:/develop/hwifo/hwinfo/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7fd11 && [1/2] Building C object CMakeFiles\cmTC_7fd11.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_7fd11.exe
+FAILED: cmTC_7fd11.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7fd11.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7fd11.dir\CheckFunctionExists.c.obj  /out:cmTC_7fd11.exe /implib:cmTC_7fd11.lib /pdb:cmTC_7fd11.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7fd11.dir\CheckFunctionExists.c.obj /out:cmTC_7fd11.exe /implib:cmTC_7fd11.lib /pdb:cmTC_7fd11.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_7fd11.dir/intermediate.manifest CMakeFiles\cmTC_7fd11.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: cannot open file 'pthread.lib'
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function secure_getenv exists failed with the following output:
+Change Dir: E:/develop/hwifo/hwinfo/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_3c0a8 && [1/2] Building C object CMakeFiles\cmTC_3c0a8.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_3c0a8.exe
+FAILED: cmTC_3c0a8.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_3c0a8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3c0a8.dir\CheckFunctionExists.c.obj  /out:cmTC_3c0a8.exe /implib:cmTC_3c0a8.lib /pdb:cmTC_3c0a8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_3c0a8.dir\CheckFunctionExists.c.obj /out:cmTC_3c0a8.exe /implib:cmTC_3c0a8.lib /pdb:cmTC_3c0a8.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_3c0a8.dir/intermediate.manifest CMakeFiles\cmTC_3c0a8.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol secure_getenv referenced in function main
+cmTC_3c0a8.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function __secure_getenv exists failed with the following output:
+Change Dir: E:/develop/hwifo/hwinfo/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_42dde && [1/2] Building C object CMakeFiles\cmTC_42dde.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_42dde.exe
+FAILED: cmTC_42dde.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_42dde.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_42dde.dir\CheckFunctionExists.c.obj  /out:cmTC_42dde.exe /implib:cmTC_42dde.lib /pdb:cmTC_42dde.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_42dde.dir\CheckFunctionExists.c.obj /out:cmTC_42dde.exe /implib:cmTC_42dde.lib /pdb:cmTC_42dde.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_42dde.dir/intermediate.manifest CMakeFiles\cmTC_42dde.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol __secure_getenv referenced in function main
+cmTC_42dde.exe : fatal error LNK1120: 1 unresolved externals
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR failed with the following output:
+Change Dir: E:/develop/hwifo/hwinfo/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_893a7 && [1/2] Building CXX object CMakeFiles\cmTC_893a7.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_893a7.dir/src.cxx.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1434~1.319\bin\Hostx64\x64\cl.exe  /nologo /TP -DCOMPILER_HAS_DEPRECATED_ATTR  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_893a7.dir\src.cxx.obj /FdCMakeFiles\cmTC_893a7.dir\ /FS -c E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx(1): error C2065: '__deprecated__': undeclared identifier
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx(1): error C2062: type 'int' unexpected
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx(1): error C2143: syntax error: missing ';' before '{'
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx(1): error C2447: '{': missing function header (old-style formal list?)
+E:\develop\hwifo\hwinfo\out\build\x64-Debug\CMakeFiles\CMakeTmp\src.cxx(2): error C3861: 'somefunc': identifier not found
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

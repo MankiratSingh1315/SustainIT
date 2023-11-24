@@ -1,0 +1,237 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/miss-opencl/external/OpenCL/bin/OpenCLUtilsCppd.dll"
+		},
+		{
+			"path" : "external/miss-opencl/external/OpenCL/lib/OpenCLUtilsCppd.lib"
+		},
+		{
+			"path" : "external/miss-opencl/external/OpenCL/bin/OpenCLUtilsCppd.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"external/miss-opencl/external/OpenCL/lib/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "CL_HPP_ENABLE_EXCEPTIONS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "CL_HPP_TARGET_OPENCL_VERSION=300"
+				},
+				{
+					"define" : "OpenCLUtilsCpp_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/external/OpenCL/lib/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "E:/develop/hwifo/hwinfo/out/build/x64-Debug/external/miss-opencl/external/OpenCL/lib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/external/OpenCL/external/OpenCL-Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "OpenCL::@e33c2024eb773c8ee5c1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "OpenCLUtils::@ddb863e5d94eb4a49d8c"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Libraries/UtilsCpp"
+	},
+	"id" : "OpenCLUtilsCpp::@ddb863e5d94eb4a49d8c",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "E:/develop/hwifo/hwinfo/out/install/x64-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/DEF:external\\miss-opencl\\external\\OpenCL\\lib\\CMakeFiles\\OpenCLUtilsCpp.dir\\.\\exports.def",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "external\\miss-opencl\\external\\OpenCL\\lib\\OpenCLUtilsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\OpenCL.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "OpenCLUtilsCpp",
+	"nameOnDisk" : "OpenCLUtilsCppd.dll",
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/lib",
+		"source" : "external/miss-opencl/external/OpenCL/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/miss-opencl/external/OpenCL/lib/src/Utils/Utils.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

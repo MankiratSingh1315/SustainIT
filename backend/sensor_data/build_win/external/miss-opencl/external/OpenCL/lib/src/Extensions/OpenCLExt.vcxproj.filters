@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\external\miss-opencl\external\OpenCL\lib\src\Extensions\src\openclext.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\develop\hwifo\hwinfo\external\miss-opencl\external\OpenCL\lib\src\Extensions\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{D3CC70A4-AABD-3095-B6DA-B808A0A2C588}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
