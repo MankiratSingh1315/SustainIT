@@ -8,10 +8,10 @@ export default function Home() {
           <input type="text" placeholder="   Search..." />
         </div>
         <div className={styles.hero_content_right}>
-          <button className={`${styles.button} ${styles.create}`} role="button">
+          <button className={`${styles.button} ${styles.create}`}>
             Add Asset
           </button>
-          <button className={`${styles.button} ${styles.create}`} role="button">
+          <button className={`${styles.button} ${styles.create}`}>
             Sort
           </button>
         </div>
