@@ -1,0 +1,265 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/miss-opencl/external/OpenCL/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/OpenCLUtilsd.lib"
+			],
+			"targetId" : "OpenCLUtils::@ddb863e5d94eb4a49d8c",
+			"targetIndex" : 32,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/bin/OpenCLUtilsd.dll"
+			],
+			"targetId" : "OpenCLUtils::@ddb863e5d94eb4a49d8c",
+			"targetIndex" : 32,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/CL",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/include/CL/Utils"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/CL/Utils",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/lib/OpenCLUtils_Export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLUtils",
+			"exportName" : "OpenCLUtilsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenCLUtils::@ddb863e5d94eb4a49d8c",
+					"index" : 32
+				}
+			],
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/CMakeFiles/Export/4912d635592a072245f201f985756754/OpenCLUtilsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLUtils",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/share/cmake/OpenCLUtils/OpenCLUtilsConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLUtils",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/share/cmake/OpenCLUtils/OpenCLUtilsConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/OpenCLUtilsCppd.lib"
+			],
+			"targetId" : "OpenCLUtilsCpp::@ddb863e5d94eb4a49d8c",
+			"targetIndex" : 33,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/bin/OpenCLUtilsCppd.dll"
+			],
+			"targetId" : "OpenCLUtilsCpp::@ddb863e5d94eb4a49d8c",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/CL",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/include/CL/Utils"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/CL/Utils",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/lib/OpenCLUtilsCpp_Export.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLUtilsCpp",
+			"exportName" : "OpenCLUtilsCppTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenCLUtilsCpp::@ddb863e5d94eb4a49d8c",
+					"index" : 33
+				}
+			],
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/lib/CMakeFiles/Export/fa8baeb7c3914b7310639e2feffe6cac/OpenCLUtilsCppTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLUtilsCpp",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/share/cmake/OpenCLUtilsCpp/OpenCLUtilsCppConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLUtilsCpp",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/share/cmake/OpenCLUtilsCpp/OpenCLUtilsCppConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/lib",
+		"source" : "external/miss-opencl/external/OpenCL/lib"
+	}
+}

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C2C46922-9101-328E-9E51-659E3CD5C558}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>HWinfo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\develop\hwifo\hwinfo\build_win\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HWinfo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HWinfo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\develop\hwifo\hwinfo\build_win\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HWinfo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HWinfo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\develop\hwifo\hwinfo\build_win\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HWinfo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HWinfo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\develop\hwifo\hwinfo\build_win\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HWinfo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HWinfo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\develop\hwifo\hwinfo\{PROJECT_SOURCE_DIR}\include;E:\develop\hwifo\hwinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\develop\hwifo\hwinfo\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/develop/hwifo/hwinfo/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/develop/hwifo/hwinfo -BE:/develop/hwifo/hwinfo/build_win --check-stamp-file E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\develop\hwifo\hwinfo\build_win\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/develop/hwifo/hwinfo/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/develop/hwifo/hwinfo -BE:/develop/hwifo/hwinfo/build_win --check-stamp-file E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\develop\hwifo\hwinfo\build_win\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/develop/hwifo/hwinfo/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/develop/hwifo/hwinfo -BE:/develop/hwifo/hwinfo/build_win --check-stamp-file E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\develop\hwifo\hwinfo\build_win\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/develop/hwifo/hwinfo/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/develop/hwifo/hwinfo -BE:/develop/hwifo/hwinfo/build_win --check-stamp-file E:/develop/hwifo/hwinfo/build_win/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\develop\hwifo\hwinfo\build_win\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\hwinfo.cpp" />
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\PCIMapper.cpp" />
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\battery.cpp">
+      <ObjectFileName>$(IntDir)/battery.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\cpu.cpp">
+      <ObjectFileName>$(IntDir)/cpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\gpu.cpp">
+      <ObjectFileName>$(IntDir)/gpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\ram.cpp">
+      <ObjectFileName>$(IntDir)/ram.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\os.cpp">
+      <ObjectFileName>$(IntDir)/os.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\mainboard.cpp">
+      <ObjectFileName>$(IntDir)/mainboard.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\disk.cpp">
+      <ObjectFileName>$(IntDir)/disk.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\utils\filesystem.cpp">
+      <ObjectFileName>$(IntDir)/apple/utils/filesystem.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\battery.cpp">
+      <ObjectFileName>$(IntDir)/apple/battery.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\cpu.cpp">
+      <ObjectFileName>$(IntDir)/apple/cpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\gpu.cpp">
+      <ObjectFileName>$(IntDir)/apple/gpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\ram.cpp">
+      <ObjectFileName>$(IntDir)/apple/ram.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\os.cpp">
+      <ObjectFileName>$(IntDir)/apple/os.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\mainboard.cpp">
+      <ObjectFileName>$(IntDir)/apple/mainboard.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\apple\disk.cpp">
+      <ObjectFileName>$(IntDir)/apple/disk.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\utils\filesystem.cpp">
+      <ObjectFileName>$(IntDir)/linux/utils/filesystem.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\battery.cpp">
+      <ObjectFileName>$(IntDir)/linux/battery.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\cpu.cpp">
+      <ObjectFileName>$(IntDir)/linux/cpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\gpu.cpp">
+      <ObjectFileName>$(IntDir)/linux/gpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\ram.cpp">
+      <ObjectFileName>$(IntDir)/linux/ram.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\os.cpp">
+      <ObjectFileName>$(IntDir)/linux/os.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\mainboard.cpp">
+      <ObjectFileName>$(IntDir)/linux/mainboard.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\linux\disk.cpp">
+      <ObjectFileName>$(IntDir)/linux/disk.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\utils\filesystem.cpp">
+      <ObjectFileName>$(IntDir)/windows/utils/filesystem.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\utils\wmi_wrapper.cpp" />
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\battery.cpp">
+      <ObjectFileName>$(IntDir)/windows/battery.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\cpu.cpp">
+      <ObjectFileName>$(IntDir)/windows/cpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\gpu.cpp">
+      <ObjectFileName>$(IntDir)/windows/gpu.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\ram.cpp">
+      <ObjectFileName>$(IntDir)/windows/ram.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\os.cpp">
+      <ObjectFileName>$(IntDir)/windows/os.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\mainboard.cpp">
+      <ObjectFileName>$(IntDir)/windows/mainboard.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\develop\hwifo\hwinfo\src\windows\disk.cpp">
+      <ObjectFileName>$(IntDir)/windows/disk.cpp.obj</ObjectFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\develop\hwifo\hwinfo\build_win\ZERO_CHECK.vcxproj">
+      <Project>{F3283719-B662-3259-A001-49F3280D7F1C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

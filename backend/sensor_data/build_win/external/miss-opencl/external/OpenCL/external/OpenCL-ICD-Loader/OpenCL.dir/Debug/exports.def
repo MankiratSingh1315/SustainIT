@@ -1,0 +1,210 @@
+EXPORTS 
+	khrEnableTrace 	 DATA
+	khrFirstLayer 	 DATA
+	khrIcdVendors 	 DATA
+	khrMasterDispatch 	 DATA
+	
+	;
+	;     http://www.apache.org/licenses/LICENSE-2.0
+	; 1. Functions are grouped into blocks according to the OpenCL API version they
+	; 2. Function blocks are sorted in ascending order of the API version.
+	; 3. Functions within a block are sorted alphabetically.
+	; Copyright (c) 2016-2019 The Khronos Group Inc.
+	; Licensed under the Apache License, Version 2.0 (the "License");
+	; Note:
+	; OpenCL 1.0 API
+	; OpenCL 1.1 API
+	; OpenCL 1.2 API
+	; OpenCL 2.0 API
+	; OpenCL 2.1 API
+	; OpenCL 2.2 API
+	; OpenCL 3.0 API
+	; OpenCL is a trademark of Apple Inc. used under license by Khronos.
+	; See the License for the specific language governing permissions and
+	; Unless required by applicable law or agreed to in writing, software
+	; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	; You may obtain a copy of the License at
+	; distributed under the License is distributed on an "AS IS" BASIS,
+	; limitations under the License.
+	; were introduced in.
+	; you may not use this file except in compliance with the License.
+	__local_stdio_printf_options
+	_vfprintf_l
+	_vfwprintf_l
+	adapterAdd
+	adapterFree
+	clBuildProgram
+	clCloneKernel
+	clCompileProgram
+	clCreateBuffer
+	clCreateBufferWithProperties
+	clCreateCommandQueue
+	clCreateCommandQueueWithProperties
+	clCreateContext
+	clCreateContextFromType
+	clCreateEventFromEGLSyncKHR
+	clCreateEventFromGLsyncKHR
+	clCreateFromD3D10BufferKHR
+	clCreateFromD3D10Texture2DKHR
+	clCreateFromD3D10Texture3DKHR
+	clCreateFromD3D11BufferKHR
+	clCreateFromD3D11Texture2DKHR
+	clCreateFromD3D11Texture3DKHR
+	clCreateFromDX9MediaSurfaceKHR
+	clCreateFromEGLImageKHR
+	clCreateFromGLBuffer
+	clCreateFromGLRenderbuffer
+	clCreateFromGLTexture
+	clCreateFromGLTexture2D
+	clCreateFromGLTexture3D
+	clCreateImage
+	clCreateImage2D
+	clCreateImage3D
+	clCreateImageWithProperties
+	clCreateKernel
+	clCreateKernelsInProgram
+	clCreatePipe
+	clCreateProgramWithBinary
+	clCreateProgramWithBuiltInKernels
+	clCreateProgramWithIL
+	clCreateProgramWithSource
+	clCreateSampler
+	clCreateSamplerWithProperties
+	clCreateSubBuffer
+	clCreateSubDevices
+	clCreateSubDevicesEXT
+	clCreateUserEvent
+	clEnqueueAcquireD3D10ObjectsKHR
+	clEnqueueAcquireD3D11ObjectsKHR
+	clEnqueueAcquireDX9MediaSurfacesKHR
+	clEnqueueAcquireEGLObjectsKHR
+	clEnqueueAcquireGLObjects
+	clEnqueueBarrier
+	clEnqueueBarrierWithWaitList
+	clEnqueueCopyBuffer
+	clEnqueueCopyBufferRect
+	clEnqueueCopyBufferToImage
+	clEnqueueCopyImage
+	clEnqueueCopyImageToBuffer
+	clEnqueueFillBuffer
+	clEnqueueFillImage
+	clEnqueueMapBuffer
+	clEnqueueMapImage
+	clEnqueueMarker
+	clEnqueueMarkerWithWaitList
+	clEnqueueMigrateMemObjects
+	clEnqueueNDRangeKernel
+	clEnqueueNativeKernel
+	clEnqueueReadBuffer
+	clEnqueueReadBufferRect
+	clEnqueueReadImage
+	clEnqueueReleaseD3D10ObjectsKHR
+	clEnqueueReleaseD3D11ObjectsKHR
+	clEnqueueReleaseDX9MediaSurfacesKHR
+	clEnqueueReleaseEGLObjectsKHR
+	clEnqueueReleaseGLObjects
+	clEnqueueSVMFree
+	clEnqueueSVMMap
+	clEnqueueSVMMemFill
+	clEnqueueSVMMemcpy
+	clEnqueueSVMMigrateMem
+	clEnqueueSVMUnmap
+	clEnqueueTask
+	clEnqueueUnmapMemObject
+	clEnqueueWaitForEvents
+	clEnqueueWriteBuffer
+	clEnqueueWriteBufferRect
+	clEnqueueWriteImage
+	clFinish
+	clFlush
+	clFlush
+	clGetCommandQueueInfo
+	clGetContextInfo
+	clGetDeviceAndHostTimer
+	clGetDeviceIDs
+	clGetDeviceIDsFromD3D10KHR
+	clGetDeviceIDsFromD3D11KHR
+	clGetDeviceIDsFromDX9MediaAdapterKHR
+	clGetDeviceInfo
+	clGetEventInfo
+	clGetEventProfilingInfo
+	clGetExtensionFunctionAddress
+	clGetExtensionFunctionAddressForPlatform
+	clGetExtensionFunctionAddressForPlatform_disp
+	clGetExtensionFunctionAddress_disp
+	clGetGLContextInfoKHR
+	clGetGLObjectInfo
+	clGetGLTextureInfo
+	clGetHostTimer
+	clGetImageInfo
+	clGetKernelArgInfo
+	clGetKernelInfo
+	clGetKernelSubGroupInfo
+	clGetKernelSubGroupInfoKHR
+	clGetKernelWorkGroupInfo
+	clGetMemObjectInfo
+	clGetPipeInfo
+	clGetPlatformIDs
+	clGetPlatformIDs_disp
+	clGetPlatformInfo
+	clGetProgramBuildInfo
+	clGetProgramInfo
+	clGetSamplerInfo
+	clGetSupportedImageFormats
+	clLinkProgram
+	clReleaseCommandQueue
+	clReleaseContext
+	clReleaseDevice
+	clReleaseDeviceEXT
+	clReleaseEvent
+	clReleaseKernel
+	clReleaseMemObject
+	clReleaseProgram
+	clReleaseSampler
+	clRetainCommandQueue
+	clRetainContext
+	clRetainDevice
+	clRetainDeviceEXT
+	clRetainEvent
+	clRetainKernel
+	clRetainMemObject
+	clRetainProgram
+	clRetainSampler
+	clSVMAlloc
+	clSVMFree
+	clSetCommandQueueProperty
+	clSetContextDestructorCallback
+	clSetDefaultDeviceCommandQueue
+	clSetEventCallback
+	clSetKernelArg
+	clSetKernelArgSVMPointer
+	clSetKernelExecInfo
+	clSetMemObjectDestructorCallback
+	clSetProgramReleaseCallback
+	clSetProgramSpecializationConstant
+	clSetUserEventStatus
+	clUnloadCompiler
+	clUnloadPlatformCompiler
+	clWaitForEvents
+	fprintf
+	fwprintf
+	getOpenCLRegKeyName
+	khrIcdContextPropertiesGetPlatform
+	khrIcdInitialize
+	khrIcdInitializeTrace
+	khrIcdLayerAdd
+	khrIcdLayersEnumerateEnv
+	khrIcdOsLibraryGetFunctionAddress
+	khrIcdOsLibraryLoad
+	khrIcdOsLibraryUnload
+	khrIcdOsVendorsEnumerate
+	khrIcdOsVendorsEnumerateAppPackage
+	khrIcdOsVendorsEnumerateDXGK
+	khrIcdOsVendorsEnumerateHKR
+	khrIcdOsVendorsEnumerateOnce
+	khrIcdVendorAdd
+	khrIcdVendorsEnumerateEnv
+	khrIcd_free_getenv
+	khrIcd_getenv
+	khrIcd_secure_getenv
+	layerFree

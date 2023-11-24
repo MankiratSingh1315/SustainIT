@@ -1,0 +1,2 @@
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/device.dir/Debug/device.obj
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/device.dir/Debug/utils.obj

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples",
+		"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples"
+	}
+}

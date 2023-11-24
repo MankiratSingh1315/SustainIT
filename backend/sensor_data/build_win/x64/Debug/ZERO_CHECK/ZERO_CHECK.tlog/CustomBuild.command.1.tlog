@@ -1,0 +1,10 @@
+^E:\DEVELOP\HWIFO\HWINFO\BUILD_WIN\CMAKEFILES\331B62E6BF9DDEBAF47A947876B87987\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/develop/hwifo/hwinfo -BE:/develop/hwifo/hwinfo/build_win --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/develop/hwifo/hwinfo/build_win/hwinfo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,730 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						12,
+						13,
+						14
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "external/miss-opencl",
+					"childIndexes" : 
+					[
+						2,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl-Debug-789ca95bddfc37da7b2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/miss-opencl"
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL-Debug-402aab6dd77e6685a039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/miss-opencl/external/OpenCL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-Headers",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.external.OpenCL-Headers-Debug-6a3f06478799e1cd6682.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-Headers"
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.external.OpenCL-ICD-Loader-Debug-81347d49b341f1d1ad24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader",
+					"targetIndexes" : 
+					[
+						30,
+						34
+					]
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.external.OpenCL-CLHPP-Debug-07919e6f3edbc3647468.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP"
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/docs",
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.external.OpenCL-CLHPP.docs-Debug-72ec76f1f9d19d812877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/docs"
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.external.OpenCL-CLHPP.examples-Debug-dc4160b914c45ff3969e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples"
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples/src",
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.external.OpenCL-CLHPP.examples.src-Debug-5484d7e507c12d26b6e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 5,
+					"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/examples/src",
+					"targetIndexes" : 
+					[
+						37,
+						40,
+						41
+					]
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/lib",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.lib-Debug-cbe23780fe15ae91f2a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "external/miss-opencl/external/OpenCL/lib",
+					"targetIndexes" : 
+					[
+						32,
+						33
+					]
+				},
+				{
+					"build" : "external/miss-opencl/external/OpenCL/lib/src/Extensions",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.miss-opencl.external.OpenCL.lib.src.Extensions-Debug-417e190c3b251b6899c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 6,
+					"source" : "external/miss-opencl/external/OpenCL/lib/src/Extensions",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "external/miss-opencl/src",
+					"jsonFile" : "directory-external.miss-opencl.src-Debug-9f4aa03b7fb766d36d74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/miss-opencl/src",
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						38,
+						39
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						12,
+						13,
+						14
+					],
+					"name" : "hwinfo",
+					"targetIndexes" : 
+					[
+						9,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						11
+					],
+					"name" : "kiss-ocl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35,
+						36,
+						38,
+						39
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						9
+					],
+					"name" : "OpenCL-SDK",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						32,
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "OpenCLHeaders",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "OpenCL-ICD-Loader",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						30,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "OpenCLHeadersCpp",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						37,
+						40,
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "OpenCLExtensionLoader",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						31
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-Continuous-Debug-cdbc41de72e02a4ec6d8.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousBuild-Debug-66efdf852de1c0b18b24.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousConfigure-Debug-b389cdfa5301545aef20.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousCoverage-Debug-8aa1b50fdee9ba1ebf49.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-b1859c62b75459aa7d02.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousStart-Debug-b773563349e160f99d17.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousSubmit-Debug-ade621bb0daafabaff9c.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousTest-Debug-c7ecffcde40bee96943b.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ContinuousUpdate-Debug-6cffd9e6a51557d3812c.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "Example.exe::@714eac15f71a94114fdf",
+					"jsonFile" : "target-Example.exe-Debug-485515b0808285ad1ae4.json",
+					"name" : "Example.exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-Experimental-Debug-4698148247c24949cf85.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalBuild-Debug-2a106c209be5a8dc89ef.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-c935decf09ffbbaab7ff.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-5d235df8c9996925b907.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-fe78c0bbb9c0951cbf90.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalStart-Debug-d40f2e05aab8746ce3f3.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-2ba53487aa420ae88356.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalTest-Debug-4f7855523d1c16996b4a.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-ee955487c38408a4558b.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "HWinfo::@145eef247bfb46b6828c",
+					"jsonFile" : "target-HWinfo-Debug-45762745efd2485bfc07.json",
+					"name" : "HWinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-Nightly-Debug-29e7ccfaf7674e57719a.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyBuild-Debug-8f7a66dfe89150b23149.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyConfigure-Debug-c053e8b25c7d60771782.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyCoverage-Debug-7944eef250969f9fbb31.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyMemCheck-Debug-252dc234468a00f30206.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-807607cab950939ca599.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyStart-Debug-0200226fcd4d91be98d8.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlySubmit-Debug-842f6ecc837291294bd1.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyTest-Debug-4cd617637dde844f7c85.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@f638e3f8b3855c0e59ab",
+					"jsonFile" : "target-NightlyUpdate-Debug-e423bdaa2c00ce32ee05.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "OpenCL::@e33c2024eb773c8ee5c1",
+					"jsonFile" : "target-OpenCL-Debug-70e6e814923010eb688f.json",
+					"name" : "OpenCL",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "OpenCLExt::@3bfab2f84cd2497921fa",
+					"jsonFile" : "target-OpenCLExt-Debug-f06a6697863fd91de0a9.json",
+					"name" : "OpenCLExt",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "OpenCLUtils::@ddb863e5d94eb4a49d8c",
+					"jsonFile" : "target-OpenCLUtils-Debug-47a202b9c154f5552bed.json",
+					"name" : "OpenCLUtils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "OpenCLUtilsCpp::@ddb863e5d94eb4a49d8c",
+					"jsonFile" : "target-OpenCLUtilsCpp-Debug-40864d072c0b3f070cff.json",
+					"name" : "OpenCLUtilsCpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "cllayerinfo::@e33c2024eb773c8ee5c1",
+					"jsonFile" : "target-cllayerinfo-Debug-8adab1f81f1cdf0acdfd.json",
+					"name" : "cllayerinfo",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "device::@31169be1dda441647717",
+					"jsonFile" : "target-device-Debug-a0a56b7396656f52f773.json",
+					"name" : "device",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "device_static::@31169be1dda441647717",
+					"jsonFile" : "target-device_static-Debug-5283c6404bf158b0225b.json",
+					"name" : "device_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "headerexample::@c7eb794ce1ee9e74f2b2",
+					"jsonFile" : "target-headerexample-Debug-a2b4db03391c97c8712d.json",
+					"name" : "headerexample",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "miss-opencl::@31169be1dda441647717",
+					"jsonFile" : "target-miss-opencl-Debug-e31285a5a180c4246f44.json",
+					"name" : "miss-opencl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "miss-opencl_static::@31169be1dda441647717",
+					"jsonFile" : "target-miss-opencl_static-Debug-23879b64f5aad8dc6e19.json",
+					"name" : "miss-opencl_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "trivial::@c7eb794ce1ee9e74f2b2",
+					"jsonFile" : "target-trivial-Debug-1c3c79bf9f753abde789.json",
+					"name" : "trivial",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "trivialSizeTCompat::@c7eb794ce1ee9e74f2b2",
+					"jsonFile" : "target-trivialSizeTCompat-Debug-81df3368ce619e8b3079.json",
+					"name" : "trivialSizeTCompat",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/develop/hwifo/hwinfo/out/build/x64-Debug",
+		"source" : "E:/develop/hwifo/hwinfo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

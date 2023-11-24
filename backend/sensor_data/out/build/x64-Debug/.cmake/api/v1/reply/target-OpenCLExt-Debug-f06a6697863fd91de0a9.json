@@ -1,0 +1,214 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/OpenCLExt.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"external/miss-opencl/external/OpenCL/lib/src/Extensions/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/EHs-"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/EHc-"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "CLEXT_INCLUDE_EGL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "CLEXT_INCLUDE_GL"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CL_TARGET_OPENCL_VERSION=300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/external/OpenCL/external/OpenCL-CLHPP/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/develop/hwifo/hwinfo/external/miss-opencl/external/OpenCL/external/OpenCL-Headers"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "OpenCL::@e33c2024eb773c8ee5c1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "OpenCLExtensionLoader"
+	},
+	"id" : "OpenCLExt::@3bfab2f84cd2497921fa",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "E:/develop/hwifo/hwinfo/out/install/x64-Debug"
+		}
+	},
+	"name" : "OpenCLExt",
+	"nameOnDisk" : "OpenCLExt.lib",
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/lib/src/Extensions",
+		"source" : "external/miss-opencl/external/OpenCL/lib/src/Extensions"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/miss-opencl/external/OpenCL/lib/src/Extensions/src/openclext.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

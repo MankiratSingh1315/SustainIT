@@ -1,0 +1,5 @@
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/miss-opencl.dir/Release/device.obj
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/miss-opencl.dir/Release/environment.obj
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/miss-opencl.dir/Release/kernel.obj
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/miss-opencl.dir/Release/opencl.obj
+E:/develop/hwifo/hwinfo/build_win/external/miss-opencl/src/miss-opencl.dir/Release/utils.obj

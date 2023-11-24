@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Example.dir/example.cpp.o -o Example  ../lib/libHWinfo.a 

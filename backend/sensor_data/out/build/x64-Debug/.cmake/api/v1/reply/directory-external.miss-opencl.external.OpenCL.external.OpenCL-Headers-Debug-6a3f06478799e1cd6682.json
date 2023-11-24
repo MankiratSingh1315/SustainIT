@@ -1,0 +1,115 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/miss-opencl/external/OpenCL/external/OpenCL-Headers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/external/OpenCL-Headers/CL"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLHeaders",
+			"exportName" : "OpenCLHeadersTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "Headers::@b2ee22dd44c4b37e7c7f",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/external/OpenCL-Headers/CMakeFiles/Export/0dba2fa5b18bfa3bc085552e04c3c8ba/OpenCLHeadersTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLHeaders",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/external/OpenCL-Headers/OpenCLHeaders/OpenCLHeadersConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLHeaders",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/external/OpenCL-Headers/OpenCLHeaders/OpenCLHeadersConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/external/OpenCL-Headers/OpenCL-Headers.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-Headers",
+		"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-Headers"
+	}
+}

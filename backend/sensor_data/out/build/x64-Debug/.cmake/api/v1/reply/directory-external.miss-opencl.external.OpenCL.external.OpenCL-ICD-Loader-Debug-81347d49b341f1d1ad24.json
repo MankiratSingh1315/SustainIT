@@ -1,0 +1,184 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 231,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 240,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 259,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 265,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 282,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/OpenCL.lib"
+			],
+			"targetId" : "OpenCL::@e33c2024eb773c8ee5c1",
+			"targetIndex" : 30,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"lib/OpenCL.dll"
+			],
+			"targetId" : "OpenCL::@e33c2024eb773c8ee5c1",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"out/build/x64-Debug/lib/OpenCL.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"lib/cllayerinfo.exe"
+			],
+			"targetId" : "cllayerinfo::@e33c2024eb773c8ee5c1",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLICDLoader",
+			"exportName" : "OpenCLICDLoaderTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenCL::@e33c2024eb773c8ee5c1",
+					"index" : 30
+				},
+				{
+					"id" : "cllayerinfo::@e33c2024eb773c8ee5c1",
+					"index" : 34
+				}
+			],
+			"paths" : 
+			[
+				"external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader/CMakeFiles/Export/0640f9797998f17d714471c1b4626b35/OpenCLICDLoaderTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLICDLoader",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader/OpenCLICDLoader/OpenCLICDLoaderConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/OpenCLICDLoader",
+			"paths" : 
+			[
+				"out/build/x64-Debug/external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader/OpenCLICDLoader/OpenCLICDLoaderConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/OpenCL.lib"
+			],
+			"targetId" : "OpenCL::@e33c2024eb773c8ee5c1",
+			"targetIndex" : 30,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"lib/OpenCL.dll"
+			],
+			"targetId" : "OpenCL::@e33c2024eb773c8ee5c1",
+			"targetIndex" : 30,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader",
+		"source" : "external/miss-opencl/external/OpenCL/external/OpenCL-ICD-Loader"
+	}
+}
