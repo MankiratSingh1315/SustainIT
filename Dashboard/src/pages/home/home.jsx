@@ -1,6 +1,17 @@
 import styles from "./home.module.css";
-
+import db from "../../firebase";
+import { collection, getDocs } from "firebase/firestore";
+import { useEffect } from "react";
 export default function Home() {
+  useEffect(() => {
+    async function getAssets() {
+      const querySnapshot = await getDocs(collection(db, "assets"));
+      querySnapshot.forEach((doc) => {
+        console.log(`${doc.id} => ${doc.data()}`);
+      });
+    }
+    getAssets();
+  }, []);
   return (
     <>
       <div className={styles.hero}>
